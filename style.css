@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Noto Sans TC', sans-serif; ;
+}
+img{
+    width: 100%;
+    opacity: 0.3;
+    height: 570px;
+}
+.bg .content {
+    position: absolute;
+    top: 0;
+   
+    color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.header h1{
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    border: 2px solid lightyellow;
+    border-radius: 5px;
+    background-color:yellow
+    /* width: 500px; */
+}
+
+ .date,.txt, .num,.btn{
+    text-align: center
+}
+.notice{
+    margin-left: 410px;
+    margin-right: 410px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color:white;
+    height:30px;
+    padding: 5px;
+
+}
+.notice span{
+    color: red;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    padding:5px
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    /* border: none; */
+    font-size: 15px;
+    font-weight: bold;
+    padding:5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: lightblue;
+}
+
+.reply{
+    margin-left: 430px;
+    margin-right: 430px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color:white;
+    height:30px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.error{
+    margin-left: 430px;
+    margin-right: 430px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color:red;
+    height:30px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.lucky{
+    margin-left: 430px;
+    margin-right: 430px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color:lightgreen;
+    height:30px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.unlucky{
+    margin-left: 430px;
+    margin-right: 430px;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color:rgb(0, 149, 255);
+    height:30px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    min-height: 20vh;
+    text-align: center;
+    border: 1px solid blACK;
+    background-color: lightgreen;
+    border: none;
+    bottom: 0;
+}
+
+.list{
+    padding-top:20px ;
+    display: flex;
+    gap: 46px;
+    /* text-decoration: none; */
+    list-style: none;
+    font-weight: bold;
+    
+}
+.list li a{
+    text-decoration:none;
+    color:black;
+}
+.list li:hover {
+    font-weight: bold;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
